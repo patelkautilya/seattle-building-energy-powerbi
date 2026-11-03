@@ -1,0 +1,147 @@
+{
+  "scope": "City of Seattle benchmarking building-year records, 2023-2025",
+  "unit_of_analysis": "one building-year record",
+  "record_counts_by_year": {
+    "2023": 3687,
+    "2024": 3712,
+    "2025": 3610
+  },
+  "by_year": {
+    "2023": {
+      "building_year_records": 3687,
+      "compliant_records": 3544,
+      "not_compliant_records": 143,
+      "compliance_record_rate_pct": 96.12,
+      "compliant_with_site_eui": 3454,
+      "median_site_eui_kbtu_per_sqft": 36.2,
+      "median_ghg_intensity_kgco2e_per_sqft": 0.62,
+      "median_energy_star_score": 83.0,
+      "eui_over_1000_count": 3
+    },
+    "2024": {
+      "building_year_records": 3712,
+      "compliant_records": 3575,
+      "not_compliant_records": 137,
+      "compliance_record_rate_pct": 96.31,
+      "compliant_with_site_eui": 3459,
+      "median_site_eui_kbtu_per_sqft": 35.1,
+      "median_ghg_intensity_kgco2e_per_sqft": 0.63,
+      "median_energy_star_score": 84.0,
+      "eui_over_1000_count": 4
+    },
+    "2025": {
+      "building_year_records": 3610,
+      "compliant_records": 3342,
+      "not_compliant_records": 268,
+      "compliance_record_rate_pct": 92.58,
+      "compliant_with_site_eui": 3342,
+      "median_site_eui_kbtu_per_sqft": 34.6,
+      "median_ghg_intensity_kgco2e_per_sqft": 0.6,
+      "median_energy_star_score": 86.0,
+      "eui_over_1000_count": 4
+    }
+  },
+  "by_building_type": {
+    "2023": {
+      "Hospital": {
+        "records": 47,
+        "median_site_eui": 148.0
+      },
+      "Multifamily HR (10+)": {
+        "records": 139,
+        "median_site_eui": 44.1
+      },
+      "Multifamily LR (1-4)": {
+        "records": 1030,
+        "median_site_eui": 30.3
+      },
+      "Multifamily MR (5-9)": {
+        "records": 774,
+        "median_site_eui": 33.3
+      },
+      "NonResidential": {
+        "records": 1286,
+        "median_site_eui": 46.5
+      },
+      "School": {
+        "records": 143,
+        "median_site_eui": 39.2
+      },
+      "University": {
+        "records": 35,
+        "median_site_eui": 59.6
+      }
+    },
+    "2024": {
+      "Hospital": {
+        "records": 44,
+        "median_site_eui": 146.4
+      },
+      "Multifamily HR (10+)": {
+        "records": 144,
+        "median_site_eui": 42.95
+      },
+      "Multifamily LR (1-4)": {
+        "records": 1007,
+        "median_site_eui": 29.7
+      },
+      "Multifamily MR (5-9)": {
+        "records": 787,
+        "median_site_eui": 33.4
+      },
+      "NonResidential": {
+        "records": 1304,
+        "median_site_eui": 44.85
+      },
+      "School": {
+        "records": 140,
+        "median_site_eui": 37.45
+      },
+      "University": {
+        "records": 33,
+        "median_site_eui": 58.6
+      }
+    },
+    "2025": {
+      "Hospital": {
+        "records": 44,
+        "median_site_eui": 136.25
+      },
+      "Multifamily HR (10+)": {
+        "records": 133,
+        "median_site_eui": 42.7
+      },
+      "Multifamily LR (1-4)": {
+        "records": 1000,
+        "median_site_eui": 29.25
+      },
+      "Multifamily MR (5-9)": {
+        "records": 780,
+        "median_site_eui": 32.7
+      },
+      "NonResidential": {
+        "records": 1221,
+        "median_site_eui": 43.4
+      },
+      "School": {
+        "records": 138,
+        "median_site_eui": 35.6
+      },
+      "University": {
+        "records": 26,
+        "median_site_eui": 53.05
+      }
+    }
+  },
+  "matched_2024_2025": {
+    "all_paired_buildings": 3562,
+    "paired_compliant_with_positive_site_eui_both_years": 3190,
+    "median_building_level_eui_change_kbtu_per_sqft": -0.5,
+    "share_with_lower_site_eui_pct": 59.72
+  },
+  "notes": [
+    "Medians use compliant records with a nonmissing, positive reported site EUI; extreme reported values remain in the extract and are flagged, not silently removed.",
+    "The matched-cohort statistic compares the same building IDs in 2024 and 2025; it does not establish the cause of a change.",
+    "Reported emissions intensity is a separate metric; no sum of its values is meaningful."
+  ]
+}

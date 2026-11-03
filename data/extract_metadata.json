@@ -1,0 +1,35 @@
+{
+  "source": "https://data.seattle.gov/Built-Environment/Building-Energy-Benchmarking-Data-2015-Present/teqw-tu6e",
+  "resource": "https://data.seattle.gov/resource/teqw-tu6e.json",
+  "extracted_at_utc": "2026-11-03T18:27:00.370273+00:00",
+  "years": [
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "source_counts": {
+    "2023": 3687,
+    "2024": 3712,
+    "2025": 3610
+  },
+  "row_count": 11009,
+  "fields": [
+    "osebuildingid",
+    "datayear",
+    "buildingtype",
+    "neighborhood",
+    "zipcode",
+    "yearbuilt",
+    "propertygfatotal",
+    "energystarscore",
+    "siteeui_kbtu_sf",
+    "siteenergyuse_kbtu",
+    "electricity_kwh",
+    "naturalgas_therms",
+    "totalghgemissions",
+    "ghgemissionsintensity",
+    "compliancestatus",
+    "demolished"
+  ],
+  "license": "Public Domain (as listed by City of Seattle)"
+}
